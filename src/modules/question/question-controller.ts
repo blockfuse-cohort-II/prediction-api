@@ -35,8 +35,7 @@ export const getQuestion = async (
     const question = await Question.findOne({ questionId });
     if (!question) {
       return res.status(404).json({ message: "Question not found" });
-    }
-    
+    }    
     return res.status(200).json({ question });
   } catch (error: any) {
     return res.status(400).json({ message: error.message });
