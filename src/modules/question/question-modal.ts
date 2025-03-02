@@ -2,6 +2,10 @@ import mongoose, { Schema, Document } from "mongoose";
 
 interface IQuestion extends Document {
   question: string;
+  options: {
+    first: string;
+    second: string;
+  }
   deadline: number;
   questionId: number;
 }
@@ -19,6 +23,10 @@ const Counter = mongoose.model<ICounter>("Counter", CounterSchema);
 const QuestionSchema: Schema = new Schema(
   {
     question: { type: String, required: true },
+    options: {
+      first: { type: String, required: true },
+      second: { type: String, required: true },
+    },
     deadline: { type: Number, required: true },
     questionId: { type: Number },
   },

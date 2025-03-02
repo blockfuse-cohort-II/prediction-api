@@ -7,17 +7,17 @@ export const createQuestion = async (
   res: Response
 ): Promise<Response> => {
   const { question, deadline } = req.body;
-  try {
-    //    const newQuestion = await Question.create({question, deadline});
-    //    await newQuestion.save();
+  try {    
     const getPrevQuestions = (await Question.find()).map(
       (data) => data.question
     );
-    // console.log({ getPrevQuestions });
-
+   
     const getQuestion = await runGemini(getPrevQuestions);
     console.log({getQuestion})
-        const newQuestion = await Question.create({question: getQuestion?.question, deadline});
+        const newQuestion = await Question.create({question: getQuestion?.question, deadline, options: {
+            first: getQuestion?.option1,
+            second: getQuestion?.option2
+        }});
        await newQuestion.save();
     return res
       .status(201)
