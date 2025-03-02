@@ -12,8 +12,8 @@ const getStringConfigValue = (key: string) => {
 
 const secret = {
   ORIGIN: getStringConfigValue("ORIGIN"),
-  MONGODB_URI: getStringConfigValue("MONGODB_URI"),    
-
+  MONGODB_URI: getStringConfigValue("MONGODB_URI"), 
+  GEMINI_API: getStringConfigValue("GEMINI_API"),
   NODE_ENV: process.env.NODE_ENV || "development",
 };
 

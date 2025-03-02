@@ -14,6 +14,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getQuestion = exports.createQuestion = void 0;
 const question_modal_1 = __importDefault(require("./question-modal"));
+// curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY" \
+// -H 'Content-Type: application/json' \
+// -X POST \
+// -d '{
+//   "contents": [{
+//     "parts":[{"text": "Explain how AI works"}]
+//     }]
+//    }'
 const createQuestion = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { question, deadline } = req.body;
     try {
