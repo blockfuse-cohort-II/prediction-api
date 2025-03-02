@@ -8,12 +8,11 @@ export const createQuestion = async (
 ): Promise<Response> => {
   const { question, deadline } = req.body;
   try {    
-    const getPrevQuestions = (await Question.find()).map(
+    const getPrevQuestions = (await Question.find().sort({ _id: -1 }).limit(15)).map(
       (data) => data.question
     );
    
-    const getQuestion = await runGemini(getPrevQuestions);
-    console.log({getQuestion})
+    const getQuestion = await runGemini(getPrevQuestions);   
         const newQuestion = await Question.create({question: getQuestion?.question, deadline, options: {
             first: getQuestion?.option1,
             second: getQuestion?.option2
@@ -21,7 +20,7 @@ export const createQuestion = async (
        await newQuestion.save();
     return res
       .status(201)
-      .json({ message: "Question created successfully", getQuestion });
+      .json({ message: "Question created successfully", newQuestion });
   } catch (error: any) {
     return res.status(400).json({ message: error.message });
   }
