@@ -14,20 +14,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getQuestion = exports.createQuestion = void 0;
 const question_modal_1 = __importDefault(require("./question-modal"));
-// curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY" \
-// -H 'Content-Type: application/json' \
-// -X POST \
-// -d '{
-//   "contents": [{
-//     "parts":[{"text": "Explain how AI works"}]
-//     }]
-//    }'
+const gemini_config_1 = __importDefault(require("../../config/gemini-config"));
 const createQuestion = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { question, deadline } = req.body;
     try {
-        const newQuestion = yield question_modal_1.default.create({ question, deadline });
+        const getPrevQuestions = (yield question_modal_1.default.find().sort({ _id: -1 }).limit(15)).map((data) => data.question);
+        const getQuestion = yield (0, gemini_config_1.default)(getPrevQuestions);
+        const newQuestion = yield question_modal_1.default.create({ question: getQuestion === null || getQuestion === void 0 ? void 0 : getQuestion.question, deadline, options: {
+                first: getQuestion === null || getQuestion === void 0 ? void 0 : getQuestion.option1,
+                second: getQuestion === null || getQuestion === void 0 ? void 0 : getQuestion.option2
+            } });
         yield newQuestion.save();
-        return res.status(201).json({ message: "Question created successfully", newQuestion });
+        return res
+            .status(201)
+            .json({ message: "Question created successfully", newQuestion });
     }
     catch (error) {
         return res.status(400).json({ message: error.message });

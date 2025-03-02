@@ -13,6 +13,7 @@ const secret = {
     ORIGIN: getStringConfigValue("ORIGIN"),
     MONGODB_URI: getStringConfigValue("MONGODB_URI"),
     GEMINI_API: getStringConfigValue("GEMINI_API"),
+    PRIVATE_KEY_SALT: getStringConfigValue("PRIVATE_KEY_SALT"),
     NODE_ENV: process.env.NODE_ENV || "development",
 };
 exports.default = secret;

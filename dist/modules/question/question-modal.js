@@ -49,6 +49,10 @@ const CounterSchema = new mongoose_1.Schema({
 const Counter = mongoose_1.default.model("Counter", CounterSchema);
 const QuestionSchema = new mongoose_1.Schema({
     question: { type: String, required: true },
+    options: {
+        first: { type: String, required: true },
+        second: { type: String, required: true },
+    },
     deadline: { type: Number, required: true },
     questionId: { type: Number },
 }, { timestamps: true });
