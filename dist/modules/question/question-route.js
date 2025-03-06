@@ -15,7 +15,4 @@ const questionRoute = (0, express_1.Router)();
 questionRoute.post("/create-question", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     (0, question_controller_1.createQuestion)(req, res);
 }));
-questionRoute.get("/get-question/:questionId", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    (0, question_controller_1.getQuestion)(req, res);
-}));
 exports.default = questionRoute;

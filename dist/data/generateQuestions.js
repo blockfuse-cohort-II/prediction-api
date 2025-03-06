@@ -12,25 +12,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createQuestion = void 0;
-const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-const getRandomArray_1 = __importDefault(require("../../utils/getRandomArray"));
-const createQuestion = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const randomArray = (0, getRandomArray_1.default)();
-        const questionsFilePath = path_1.default.join(__dirname, "/../../data/questions.json");
-        const questionsData = JSON.parse(fs_1.default.readFileSync(questionsFilePath, "utf-8"));
-        const questions = [];
-        for (const question of randomArray) {
-            questions.push(questionsData[question]);
-        }
-        return res
-            .status(201)
-            .json({ message: "Question created successfully", questions });
-    }
-    catch (error) {
-        return res.status(400).json({ message: error.message });
-    }
+const fs_1 = __importDefault(require("fs"));
+const gemini_config_1 = __importDefault(require("../config/gemini-config"));
+function main() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const getQuestion = yield (0, gemini_config_1.default)();
+        const filePath = path_1.default.join(__dirname, 'questions.json');
+        fs_1.default.writeFileSync(filePath, JSON.stringify(getQuestion, null, 2));
+    });
+}
+main().catch(() => {
+    throw new Error("something went wrong");
 });
-exports.createQuestion = createQuestion;

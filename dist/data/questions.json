@@ -1,0 +1,1354 @@
+[
+  {
+    "question": "A snail is climbing a slippery slope. Will it reach the top before nightfall, or will it slide back down?",
+    "options": [
+      "Reaches the top",
+      "Slides back down"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two bakers are making cookies. Does the first baker make more cookies than the second baker or the second baker make more cookies than the first baker?",
+    "options": [
+      "First baker makes more",
+      "Second baker makes more"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A boat is sailing on a lake. Will it encounter a friendly dolphin or a grumpy turtle?",
+    "options": [
+      "Friendly Dolphin",
+      "Grumpy Turtle"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two squirrels are racing to bury a nut. Will the gray squirrel bury the nut before the red squirrel, or the red squirrel bury the nut first?",
+    "options": [
+      "Gray Squirrel",
+      "Red Squirrel"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A kite is flying high in the sky. Will it get tangled in a tree, or continue to soar freely?",
+    "options": [
+      "Tangled in a tree",
+      "Soars freely"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two artists are painting the same sunset. Will the first artist use more red than yellow, or will the second artist use more yellow than red?",
+    "options": [
+      "First artist (more red)",
+      "Second artist (more yellow)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A frog is hopping across lily pads. Will it reach the other side of the pond, or fall into the water?",
+    "options": [
+      "Reaches the other side",
+      "Falls into the water"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two ants are carrying crumbs. Will the first ant carry a larger crumb than the second ant, or will the second ant carry a crumb larger than the first?",
+    "options": [
+      "First ant (larger crumb)",
+      "Second ant (larger crumb)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A bird is building a nest. Will it choose a branch high in the tree or close to the ground?",
+    "options": [
+      "High in the tree",
+      "Close to the ground"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two children are drawing with crayons. Will the first child draw a picture of a cat, or will the second child draw a picture of a dog?",
+    "options": [
+      "Picture of a Cat",
+      "Picture of a Dog"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A paper airplane is launched from a window. Will it land on the roof of a house or in a garden?",
+    "options": [
+      "Roof of a House",
+      "In a Garden"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two children are picking strawberries. Will the first child pick riper strawberries than the second child, or the second child pick riper strawberries than the first?",
+    "options": [
+      "First child (riper)",
+      "Second child (riper)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A balloon is released into the air. Will it float towards the mountains or the sea?",
+    "options": [
+      "Towards the Mountains",
+      "Towards the Sea"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two cats are chasing a laser pointer. Will the gray cat catch it first, or will the orange cat be faster?",
+    "options": [
+      "Gray Cat",
+      "Orange Cat"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A child is planting a seed. Will it grow into a sunflower or a daisy?",
+    "options": [
+      "Sunflower",
+      "Daisy"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two friends are knitting scarves. Will the first friend finish their scarf first, or will the second friend be quicker?",
+    "options": [
+      "First Friend",
+      "Second Friend"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A raindrop is falling from the sky. Will it land on a flower or a leaf?",
+    "options": [
+      "On a Flower",
+      "On a Leaf"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two chefs are baking cakes. Will the first chef's cake be taller, or the second chef's cake be wider?",
+    "options": [
+      "Taller Cake",
+      "Wider Cake"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A butterfly is fluttering around a garden. Will it land on a pink flower or a yellow flower?",
+    "options": [
+      "Pink Flower",
+      "Yellow Flower"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two dogs are playing fetch. Will the small dog catch the ball first, or will the big dog be quicker?",
+    "options": [
+      "Small Dog",
+      "Big Dog"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A hiker is climbing a mountain. Will they reach a rocky peak or a grassy plateau?",
+    "options": [
+      "Rocky Peak",
+      "Grassy Plateau"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two painters are painting doors. Will the first painter paint a darker shade of green than the second painter, or will the second painter paint a lighter shade of blue than the first?",
+    "options": [
+      "First Painter (darker green)",
+      "Second Painter (lighter blue)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A paper boat is floating down a stream. Will it pass under a bridge or get caught on a rock?",
+    "options": [
+      "Pass under a bridge",
+      "Caught on a rock"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two children are skipping rope. Will the first child skip higher than the second child, or will the second child skip longer than the first?",
+    "options": [
+      "First child (higher)",
+      "Second child (longer)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A star is shining in the night sky. Will it twinkle brighter than all the others, or fade away before dawn?",
+    "options": [
+      "Twinkle Brighter",
+      "Fade Away"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two musicians are playing guitars. Will the first musician play a faster tempo than the second musician, or the second musician play a melody that is more somber?",
+    "options": [
+      "First musician (faster)",
+      "Second musician (somber)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A leaf is falling from a tree. Will it twirl to the left or to the right?",
+    "options": [
+      "To the Left",
+      "To the Right"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two gardeners are planting flowers. Will the first gardener's flowers bloom sooner or the second gardeners flowers grow taller?",
+    "options": [
+      "First Gardener (sooner)",
+      "Second Gardener (taller)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A cloud is drifting across the sky. Will it turn into a sheep or a dragon?",
+    "options": [
+      "Sheep",
+      "Dragon"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two bakers are decorating cakes. Will the first baker use more frosting than the second baker, or will the second baker use more sprinkles than the first?",
+    "options": [
+      "First Baker (more frosting)",
+      "Second Baker (more sprinkles)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A firefly is blinking in the darkness. Will it fly up or fly down?",
+    "options": [
+      "Fly Up",
+      "Fly Down"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two birds are singing in a tree. Will the first bird sing louder than the second bird, or the second birds song sound more cheerful?",
+    "options": [
+      "First bird (louder)",
+      "Second bird (more cheerful)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A pebble is dropped into a pond. Will the ripples reach the edge of the pond, or fade away before they get there?",
+    "options": [
+      "Reach the Edge",
+      "Fade Away"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two friends are playing chess. Will the first friend capture the others queen or lose the game first?",
+    "options": [
+      "First Friend (capture queen)",
+      "Second friend (lose game)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A bubble is floating in the air. Will it pop on a sharp thorn or drift away on the breeze?",
+    "options": [
+      "Pop on a thorn",
+      "Drift away"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two cooks are making soup. Will the first cook make a more spicy soup than the second cook, or the second cook make a more creamy soup?",
+    "options": [
+      "First Cook (spicy)",
+      "Second Cook (creamy)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A spider is spinning a web. Will it catch a fly or a moth?",
+    "options": [
+      "Catch a Fly",
+      "Catch a Moth"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two farmers are harvesting apples. Will the first farmer pick more red apples or the second farmer pick more green apples?",
+    "options": [
+      "First Farmer (red)",
+      "Second Farmer (green)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A snail is crawling on a rock. Will it leave a slimy trail on a wet surface or dry surface?",
+    "options": [
+      "Wet Surface",
+      "Dry Surface"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two artists are sculpting clay. Will the first artist sculpt an animal or the second artist sculpt a human figure?",
+    "options": [
+      "First Artist (animal)",
+      "Second Artist (human)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A ladybug is crawling on a leaf. Will it fly away or continue crawling?",
+    "options": [
+      "Fly Away",
+      "Continue Crawling"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two dancers are performing on stage. Will the first dancer jump higher than the second dancer, or the second dancers routine be more elegant?",
+    "options": [
+      "First Dancer (higher)",
+      "Second Dancer (elegant)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A stream is flowing through a forest. Will it merge into a larger river or disappear into the ground?",
+    "options": [
+      "Merge into a River",
+      "Disappear into the Ground"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two authors are writing books. Will the first author finish the novel faster than the second author write more chapters?",
+    "options": [
+      "First Author (finish novel)",
+      "Second Author (write more chapters)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A mushroom is growing in a forest. Will it be poisonous or edible?",
+    "options": [
+      "Poisonous",
+      "Edible"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two singers are performing a duet. Will the first singer have the higher pitch, or will the second singer deliver more emotionally charged lyrics?",
+    "options": [
+      "First Singer (high pitch)",
+      "Second Singer (emotional)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A dandelion seed is floating in the wind. Will it land on fertile soil or barren ground?",
+    "options": [
+      "Fertile Soil",
+      "Barren Ground"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two tailors are sewing garments. Will the first tailor use more silk or the second tailor use more linen?",
+    "options": [
+      "First Tailor (silk)",
+      "Second Tailor (linen)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "An egg is sitting in a nest. Will it hatch into a bird or remain unhatched?",
+    "options": [
+      "Hatch into a Bird",
+      "Remain Unhatched"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two actors are rehearsing scenes. Will the first actor laugh more on scene, or will the second actor cry more in act?",
+    "options": [
+      "First Actor (laugh more)",
+      "Second Actor (cry more)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A feather is floating in a room. Will it float towards a light source or a dark corner?",
+    "options": [
+      "Light Source",
+      "Dark Corner"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two dancers are waltzing across a floor. Will the first dancer be more elegant or will the second dancer be more joyful?",
+    "options": [
+      "First Dancer (elegant)",
+      "Second Dancer (joyful)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A candle is burning in a room. Will the candle last throughout the whole night, or will it run out?",
+    "options": [
+      "Last throughout the Night",
+      "Run Out"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two magicians are performing on stage. Will the first magician perform a more complex trick or the second magician have a greater stage presence?",
+    "options": [
+      "First Magician (complex trick)",
+      "Second Magician (greater presence)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A balloon is tied to a chair. Will it pop or remain inflated?",
+    "options": [
+      "Pop",
+      "Remain Inflated"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two designers are creating projects. Will the first designer have a more innovative creation or the second designer have a more efficient creation?",
+    "options": [
+      "First Designer (innovative)",
+      "Second Designer (efficient)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A snowflake is falling from the sky. Will it land on a coat sleeve or melt instantly?",
+    "options": [
+      "Land on Coat Sleeve",
+      "Melt Instantly"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two storytellers are sharing tales. Will the first storyteller weave a narrative that is more thrilling or will the second storyteller deliver a tale that is more profound?",
+    "options": [
+      "First Storyteller (thrilling)",
+      "Second Storyteller (profound)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A ball is rolling down a hill. Will it reach the bottom or stop before it gets there?",
+    "options": [
+      "Reach the Bottom",
+      "Stop Before"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two poets are writing verses. Will the first poet produce verses that are more lyrical or the second poet produce verses that are more evocative?",
+    "options": [
+      "First Poet (lyrical)",
+      "Second Poet (evocative)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A painting hangs on a wall. Will it sell for a high price or receive less attention?",
+    "options": [
+      "Sell for High Price",
+      "Receive Less Attention"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two architects are designing buildings. Will the first architect design a building with unique aesthetics or the second architect design a building with sustainable functionality?",
+    "options": [
+      "First Architect (unique aesthetics)",
+      "Second Architect (sustainable functionality)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A glass sits on a table. Will it fall or remain stable?",
+    "options": [
+      "Fall",
+      "Remain Stable"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two programmers are debugging the code. Will the first programmer find the bug that causes a program to crash the easiest or the second programmer find the bug causing the most memory?",
+    "options": [
+      "First Programmer (easy to crash bug)",
+      "Second Programmer (memory bug)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A key is sitting on a table. Will the person in the room lock the door or unlock the door?",
+    "options": [
+      "Lock the door",
+      "Unlock the door"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two comedians are performing in front of an audience. Will the first comedian win over more people or the second comedian to produce a performance that is less funny?",
+    "options": [
+      "First Comedian (more people)",
+      "Second Comedian (funny performance)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A clock is ticking. Will it tell the right time or will it run out?",
+    "options": [
+      "Tell the Right Time",
+      "Run Out"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two analysts are creating reports. Will the first analyst create a less complex report but more in depth, or the second Analyst produce a more complex report but less in depth?",
+    "options": [
+      "First Analyst (less complex more in depth)",
+      "Second Analyst (more complex less in depth)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "A leaf fell onto the grass. Will it be stepped on or not?",
+    "options": [
+      "Will be stepped on",
+      "Not Will Be Stepped on"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Two mechanics fixing a car. Will the first mechanic fix the Engine first, or will the second mechanic fix the wheels first?",
+    "options": [
+      "First Mechanic (Engine)",
+      "Second Mechanic (Wheels)"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the sun rise or set today?",
+    "options": [
+      "Rise",
+      "Set"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will a human or robot be the new leader?",
+    "options": [
+      "Human",
+      "Robot"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will I go to sleep earlier or later?",
+    "options": [
+      "Earlier",
+      "Later"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the sky be blue or red tomorrow?",
+    "options": [
+      "Blue",
+      "Red"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the ocean level rise or fall?",
+    "options": [
+      "Rise",
+      "Fall"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will humans live on Mars or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will AI take over the world or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the world economy rise or fall?",
+    "options": [
+      "Rise",
+      "Fall"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the next pandemic be worse or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will a meteor hit earth tomorrow or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the next war lead to peace or destruction?",
+    "options": [
+      "Peace",
+      "Destruction"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the next discovery come from earth or space?",
+    "options": [
+      "Earth",
+      "Space"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the population of the world be higher or lower next year?",
+    "options": [
+      "Higher",
+      "Lower"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will people be happier or sadder tomorrow?",
+    "options": [
+      "Happier",
+      "Sadder"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the world become more united or divided?",
+    "options": [
+      "United",
+      "Divided"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will energy be more available or scarce?",
+    "options": [
+      "Available",
+      "Scarce"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will people walk on the moon again or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will climate change improve or worsen?",
+    "options": [
+      "Improve",
+      "Worsen"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the stock market rise or crash?",
+    "options": [
+      "Rise",
+      "Crash"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the Earth's temperature rise or fall?",
+    "options": [
+      "Rise",
+      "Fall"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will humans colonize the solar system or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will peace prevail or war prevail?",
+    "options": [
+      "Peace",
+      "War"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will money be digital or physical in the future?",
+    "options": [
+      "Digital",
+      "Physical"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will a cure be discovered tomorrow or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will a great discovery be made in the ocean or the land?",
+    "options": [
+      "Ocean",
+      "Land"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will people live forever or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will time travel be possible or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the pyramids be solved or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will dogs fly or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will there be more love or hate?",
+    "options": [
+      "Love",
+      "Hate"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will cars be cheap or expensive?",
+    "options": [
+      "Cheap",
+      "Expensive"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will houses be made of metal or paper?",
+    "options": [
+      "Metal",
+      "Paper"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will people eat plants or meat?",
+    "options": [
+      "Plants",
+      "Meat"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will doctors be humans or robots?",
+    "options": [
+      "Humans",
+      "Robots"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will games be outside or virtual?",
+    "options": [
+      "Outside",
+      "Virtual"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will robots be pets or servants?",
+    "options": [
+      "Pets",
+      "Servants"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will people be free or locked up?",
+    "options": [
+      "Free",
+      "Locked Up"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will schools be fun or not?",
+    "options": [
+      "Fun",
+      "Not"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will work be hard or easy?",
+    "options": [
+      "Hard",
+      "Easy"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will life be short or long?",
+    "options": [
+      "Short",
+      "Long"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will space travel be risky or not?",
+    "options": [
+      "Risky",
+      "Not"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will nature improve or degrade?",
+    "options": [
+      "Improve",
+      "Degrade"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will people be healthy or sick?",
+    "options": [
+      "Healthy",
+      "Sick"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will people be rich or poor?",
+    "options": [
+      "Rich",
+      "Poor"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will cities be big or small?",
+    "options": [
+      "Big",
+      "Small"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will communication be simple or complex?",
+    "options": [
+      "Simple",
+      "Complex"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will food be tasty or gross?",
+    "options": [
+      "Tasty",
+      "Gross"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the oceans be clean or polluted?",
+    "options": [
+      "Clean",
+      "Polluted"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will transportation be flying or grounded?",
+    "options": [
+      "Flying",
+      "Grounded"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will fashion be old or new?",
+    "options": [
+      "Old",
+      "New"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the news be true or fake?",
+    "options": [
+      "True",
+      "Fake"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the economy be stable or unstable?",
+    "options": [
+      "Stable",
+      "Unstable"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will society be just or unjust?",
+    "options": [
+      "Just",
+      "Unjust"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the world be at war or at peace?",
+    "options": [
+      "War",
+      "Peace"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will there be more happiness or sadness?",
+    "options": [
+      "Happiness",
+      "Sadness"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will there be greater understanding or confusion?",
+    "options": [
+      "Understanding",
+      "Confusion"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will there be more cooperation or competition?",
+    "options": [
+      "Cooperation",
+      "Competition"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will there be progress or regression?",
+    "options": [
+      "Progress",
+      "Regression"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will people be accepting or intolerant?",
+    "options": [
+      "Accepting",
+      "Intolerant"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will knowledge be valuable or irrelevant?",
+    "options": [
+      "Valuable",
+      "Irrelevant"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the future be brighter or darker?",
+    "options": [
+      "Brighter",
+      "Darker"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will life be unpredictable or predictable?",
+    "options": [
+      "Unpredictable",
+      "Predictable"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the world be the same or different?",
+    "options": [
+      "Same",
+      "Different"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will technology be harmful or helpful?",
+    "options": [
+      "Harmful",
+      "Helpful"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will leaders be honest or corrupt?",
+    "options": [
+      "Honest",
+      "Corrupt"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will the planet survive or perish?",
+    "options": [
+      "Survive",
+      "Perish"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Two fishermen are fishing. Will the first fisherman catch a bigger fish, or will the second fisherman catch more fishes?",
+    "options": [
+      "First catch (bigger fish)",
+      "Second catch (more fishes)"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will there be aliens on earth one day or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will our simulation break or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Are we living in the present, or are we in the past?",
+    "options": [
+      "Present",
+      "Past"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can birds talk or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "A coin is flipped. Will it be heads or tails?",
+    "options": [
+      "Heads",
+      "Tails"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will humans live among a different dimension or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will cats live more than humans or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will the world go through a different time period?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "A book is on the shelf. Will it get chosen or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can humans turn invisible or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "A tree is in the wind. Will it fall over or not?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can people survive without the sun?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will there be new planets that can be lived in?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Is there life on other planets?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will all the world's problems solve themselves?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can people live through a tornado?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Will time speed up or slow down?",
+    "options": [
+      "Speed up",
+      "Slow down"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Will there be a better way to heal?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can humans live without their phone?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can dogs understand humans?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can the world run without money?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can people get a refund on their sins?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Is it time to go to war?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Should I get a dog today?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can people be trusted?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Are you happy?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can people get away with murder?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Is there a god?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can I travel to another world?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can the blind see color?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Can I fly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Can I read?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "0"
+  }
+]
