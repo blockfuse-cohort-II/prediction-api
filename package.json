@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon",
-    "build": "dotenv -e .env -- npx tsc",
+    "build": "dotenv -e .env -- npx tsc && cp -r src/**/*.json dist/data",
     "start": "node dist/index.js"
   },
   "keywords": [],

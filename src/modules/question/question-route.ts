@@ -3,7 +3,7 @@ import { createQuestion } from "./question-controller";
 
 const questionRoute = Router();
 
-questionRoute.post("/create-question", async (req: Request, res: Response) => {
+questionRoute.get("/create-question", async (req: Request, res: Response) => {
   createQuestion(req, res);
 });
 

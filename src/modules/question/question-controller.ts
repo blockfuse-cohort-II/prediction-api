@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import fs from "fs";
 import path from "path";
 import getRandomArray from "../../utils/getRandomArray";
-import Question from "./question-modal";
 
 export const createQuestion = async (
   req: Request,

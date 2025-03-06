@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const question_controller_1 = require("./question-controller");
 const questionRoute = (0, express_1.Router)();
-questionRoute.post("/create-question", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+questionRoute.get("/create-question", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     (0, question_controller_1.createQuestion)(req, res);
 }));
 exports.default = questionRoute;
